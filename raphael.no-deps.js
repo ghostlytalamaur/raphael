@@ -5773,7 +5773,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
                 o._.arrows = {};
             }
             if (type != "none") {
-                var pathId = "raphael-marker-" + type,
+                var pathId = "raphael-marker-" + type + "-obj" + p.id,
                     markerId = "raphael-marker-" + se + type + w + h + "-obj" + o.id;
                 if (!R._g.doc.getElementById(pathId)) {
                     p.defs.appendChild($($("path"), {
